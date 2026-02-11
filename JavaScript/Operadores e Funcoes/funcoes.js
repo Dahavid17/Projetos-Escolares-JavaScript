@@ -23,13 +23,17 @@ function soma(a, b) {
 
 console.log(soma(5, 3));
 
-
 function IMCcalculo(peso, altura) {
     return peso / (altura * altura);
-}   
+}
 
-let imccalculado = IMCcalculo(70, 1.75);
-console.log("Seu IMC é: " + IMCcalculo(70, 1.75).toFixed(2));
+let imccalculado = parseFloat(prompt("Digite seu peso em kg:"));
+let alturacalculada = parseFloat(prompt("Digite sua altura em metros:"));
+
+let imc = IMCcalculo(imccalculado, alturacalculada);
+
+console.log("Seu IMC é: " + imc.toFixed(2));
+
 
 
 function ImparOuPar(numero) {
@@ -40,5 +44,5 @@ function ImparOuPar(numero) {
     }
 }
 
-console.log(ImparOuPar(7));
-console.log(ImparOuPar(10));    
+let num = parseInt(prompt("Digite um número:"));
+console.log(ImparOuPar(num));
