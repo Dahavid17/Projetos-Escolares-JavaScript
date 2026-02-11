@@ -44,5 +44,14 @@ function ImparOuPar(numero) {
     }
 }
 
-let num = parseInt(prompt("Digite um número:"));
+//let num = parseInt(prompt("Digite um número:"));
 console.log(ImparOuPar(num));
+
+console.log("")
+
+console.log("funções nativas");
+
+console.log("")
+
+console.log("Data e Hora")
+
